@@ -36,6 +36,7 @@ import NewPocket from './pages/forms/newPocket/NewPocket.tsx';
 import NewProfile from './pages/forms/newProfile/NewProfile.tsx';
 import NewAccount from './pages/forms/newAccount/NewAccount.tsx';
 import Overview from './pages/overview/Overview.tsx';
+import AccountDetail from './pages/forms/accountDetail/AccountDetail.tsx';
 
 function App() {
   const router = createBrowserRouter([
@@ -113,7 +114,8 @@ function App() {
     // },
     {
       path: '/overview/accounts/:accountId',
-      element: <CategoryDetail />,
+      element: <AccountDetail />,
+      // element: <CategoryDetail />,
     },
   ]);
 

@@ -21,11 +21,11 @@ function Debts() {
 
   //----Debts Options Temporary values----------
   const accountOptions = {
-    title: 'Available Account',
+    title: 'Name, Lastname',
     options: [
-      { value: 'account_01', label: 'Account_01' },
-      { value: 'account_02', label: 'Account_02' },
-      { value: 'account_03', label: 'Account_03' },
+      { value: 'NameLastName_01', label: 'Name, Lastname_01' },
+      { value: 'NameLastName_02', label: 'Name, Lastname_02' },
+      { value: 'NameLastName_03', label: 'Name, Lastname_03' },
     ],
   };
   //-----------------
@@ -85,9 +85,9 @@ function Debts() {
     console.log('selected starting point:', currency);
   }
 
-  function toggleCurrency() {
-    setCurrency((prev) => changeCurrency(prev));
-  }
+  // function toggleCurrency() {
+  //   setCurrency((prev) => changeCurrency(prev));
+  // }
 
   function onSaveHandler() {
     console.log('On Save Handler');
@@ -128,7 +128,7 @@ function Debts() {
             </div>
           </div>
 
-          <div className='card--title'>Account</div>
+          <div className='card--title'>Debtors</div>
           <SelectComponent dropDownOptions={accountOptions} />
         </div>
 

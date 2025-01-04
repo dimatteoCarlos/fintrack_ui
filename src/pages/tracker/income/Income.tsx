@@ -6,6 +6,7 @@ import { changeCurrency } from '../../../helpers/functions.ts';
 import CardSeparator from '../components/CardSeparator.tsx';
 import SelectComponent from '../components/SelectComponent.tsx';
 import FormSubmitBtn from '../../../components/formSubmitBtn/FormSubmitBtn.tsx';
+import CurrencyBadge from '../../../components/currencyBadge/CurrencyBadge.tsx';
 
 function Income() {
   //temporary values
@@ -96,6 +97,13 @@ function Income() {
             {/* <div className='icon-currency' onClick={toggleCurrency}>
               {currency.toUpperCase()}
             </div> */}
+
+            <div className='account__currency'>
+              <CurrencyBadge
+                updateOutsideCurrencyData={updateDataCurrency}
+                variant='tracker'
+              ></CurrencyBadge>
+            </div>
           </div>
 
           <div className='card--title'>Account</div>

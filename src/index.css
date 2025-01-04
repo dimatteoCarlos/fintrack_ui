@@ -33,7 +33,7 @@ body,
   --creme: #e8e4da;
   --textColor: #141414;
   --topH: 22%;
-  
+
   --primary: lightgreen;
   --secondary: #7f7f7f;
 }
@@ -82,11 +82,11 @@ input[type='number'] {
 
 button {
   background-color: transparent;
-  border: none;
   outline: none;
   font-family: inherit;
   padding: 0;
   cursor: pointer;
+  /* border: none; */
 }
 
 [class*='icon'] {
