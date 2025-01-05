@@ -1,7 +1,7 @@
 //
-import '../../styles/generalStyles.css';
+// import '../../styles/generalStyles.css';
 import { useEffect, useState } from 'react';
-import { changeCurrency } from '../../../helpers/functions.ts';
+// import { changeCurrency } from '../../../helpers/functions.ts';
 
 import CardSeparator from '../components/CardSeparator.tsx';
 import SelectComponent from '../components/SelectComponent.tsx';
