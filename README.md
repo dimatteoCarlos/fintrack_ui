@@ -1,4 +1,9 @@
 # React + TypeScript + Vite
+``` THIS VERSION IS A FIRST APPROACH OF THE UI OF FINTRACK APP, AND SOME USER INTERACTIONS AND STATES HANDLING WITH REACT JS AND REACT-ROUTER-DOM
+```
+FOR THE FOLLOWING VERSION OF THIS GO TO fintrack repository -> https://github.com/dimatteoCarlos/fintrack
+```
+***********************************************
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
